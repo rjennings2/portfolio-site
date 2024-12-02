@@ -16,6 +16,8 @@ You may also see any lint errors in the console.
 
 To get the web application running at localhost:5575 run:
 ### `docker build -t jennings_rylee_coding_assignment14 .`
+# this builds the docker container named lastname_firstname_coding_assignment14
 
-then
+then run
 ### `docker run -p 5575:80 --name jennings_rylee_coding_assignment14 jennings_rylee_coding_assignment14`
+# this runs the site in the docker container that was created and initializes the port as 5575
